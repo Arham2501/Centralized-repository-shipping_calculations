@@ -1,0 +1,7 @@
+theia@theia-arhamgandhi1:/home/project/mcino-Introduction-to-Git-and-GitHub$ git diff 9454c3b^ 9454c3b --stat
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-arhamgandhi1:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout -b merge-demo 9454c3b^
+Switched to a new branch 'merge-demo'
+theia@theia-arhamgandhi1:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
+Already up to date.
